@@ -9,7 +9,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage />}/>
-        <Route path='error' element={<ErrorPage />}/>
+
+        {/*catch all route*/}
+        <Route path='*' element={<ErrorPage />}/>
       </Routes>
     </Router>
   );
