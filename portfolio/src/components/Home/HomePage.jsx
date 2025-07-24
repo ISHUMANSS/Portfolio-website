@@ -1,4 +1,5 @@
-
+//home page will contain all the information needed in short easy details
+//will have links to bigger sections so that the viewer can gain more information if they want to
 
 function HomePage(){
 

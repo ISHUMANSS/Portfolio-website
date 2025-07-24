@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+/*adaptive auto colour folowing the system settings: https://www.youtube.com/watch?app=desktop&v=HywNyC1XDFg&ab_channel=SuperHi*/
+
+
+root{
+  /*default dark mode colours*/
+  /*perhaps is a bit to dark*/
+  --bg-color:#110207;
+  --content:#2F1721;
+  --highlight:#5F0A29;
+  --hover:#4C0E27;
+  --text:#FDFAF4;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light-theme{
+  /*paige thinks these look alright*/
+  /*changes all the default colours to their light mode versions*/
+  --bg-color:#eee0e4;
+  --content:#E2C7D2;
+  --highlight:#5F0A29;
+  --hover:#4C0E27;
+  --text:#030303;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root[data-theme="light"] {
+  --text: #030303;
+  --background: #efe1e5;
+  --primary: #610a2a;
+  --secondary: #e2c5d2;
+  --accent: #2a0413;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*some of the dark mode stuff don't look great but i like the light colours*/
+:root[data-theme="dark"] {
+  --text: #fcfcfc;
+  --background: #1e1014;
+  --primary: #f59ebe;
+  --secondary: #3a1d2a;
+  --accent: #fbd5e4;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
