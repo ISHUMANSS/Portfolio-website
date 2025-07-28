@@ -3,9 +3,10 @@
 function NavBar(){
 
     return(
-        <>
-            NavBar
-        </>
+        <div className="navBar">
+            naheaesad
+
+        </div>
     );
 }
 
