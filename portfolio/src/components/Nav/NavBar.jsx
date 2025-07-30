@@ -4,7 +4,7 @@ function NavBar(){
 
     return(
         <div className="navBar">
-            naheaesad
+            nav bar
 
         </div>
     );

@@ -3,9 +3,9 @@
 function TechStackSection() {
 
     return(
-       <>
+       <div>
             Techsatck
-       </>
+       </div>
     );
 
 }
