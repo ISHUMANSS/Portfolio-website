@@ -1,4 +1,4 @@
-
+import "./AboutSection.css";
 
 function AboutSection() {
 

@@ -1,4 +1,5 @@
-
+import "./ProjectSection.css";
+import "./projectloader.js";
 
 function ProjectSection() {
 

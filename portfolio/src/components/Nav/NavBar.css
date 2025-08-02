@@ -1,0 +1,9 @@
+.navBar{
+  color: #2a0413;
+  width: 100%;
+  height:20%;
+  background-color: var(--content);
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}

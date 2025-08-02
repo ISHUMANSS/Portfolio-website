@@ -8,6 +8,8 @@ import NavBar from "../Nav/NavBar";
 import ProjectSection from "../Projects/ProjectSection";
 import TechStackSection from "../TechStack/TechStackSection";
 
+import "./HomePage.css"
+
 function HomePage(){
 
     return(

@@ -1,4 +1,5 @@
 
+import "./AboutPage.css";
 
 function AboutPage() {
 

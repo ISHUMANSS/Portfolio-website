@@ -1,4 +1,6 @@
 //project page
+import "./ProjectPage.css";
+import "./projectloader.js"
 
 function ProjectPage(){
 
