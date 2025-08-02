@@ -1,19 +1,7 @@
 /*adaptive auto colour folowing the system settings: https://www.youtube.com/watch?app=desktop&v=HywNyC1XDFg&ab_channel=SuperHi*/
 
 
-root{
-  /*default dark mode colours*/
-  /*perhaps is a bit to dark*/
-  --bg-color:#110207;
-  --content:#2F1721;
-  --highlight:#5F0A29;
-  --hover:#4C0E27;
-  --text:#FDFAF4;
-
-
-}
-
-.light-theme{
+:root{
   /*paige thinks these look alright*/
   /*changes all the default colours to their light mode versions*/
   --bg-color:#eee0e4;
@@ -21,6 +9,17 @@ root{
   --highlight:#5F0A29;
   --hover:#4C0E27;
   --text:#030303;
+
+}
+
+.dark-theme{
+  /*default dark mode colours*/
+  /*perhaps is a bit to dark*/
+  --bg-color:#110207;
+  --content:#2F1721;
+  --highlight:#5F0A29;
+  --hover:#4C0E27;
+  --text:#FDFAF4;
 
 }
 
@@ -41,3 +40,11 @@ root{
   --accent: #fbd5e4;
 }
 
+html, body {
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*set basic text colour to text will be overridden when it is needed to */
+  color: var(--text);
+}
