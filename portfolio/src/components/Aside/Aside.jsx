@@ -9,8 +9,6 @@ function Aside() {
 
     return(
         <div className="asside">
-            
-            Asside
             <ContactSection />
 
         </div>

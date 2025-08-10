@@ -20,6 +20,8 @@ function App() {
         <Route path='/' element={<HomePage />}/>
 
         {/*catch all route*/}
+        
+
         <Route path='*' element={<ErrorPage />}/>
       </Routes>
     </Router>

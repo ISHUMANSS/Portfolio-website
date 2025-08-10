@@ -47,4 +47,5 @@ html, body {
   padding: 0;
   /*set basic text colour to text will be overridden when it is needed to */
   color: var(--text);
+  overflow-y: scroll;
 }
